@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>table,th,tr,td{
+        border: solid skyblue 1px;
+        padding: 8px;
+        text-align: center;
+    }</style>
+    <table style="color: black"> 
+    <tr>
+        <th>Teams</th>
+        <th>City
+        </th>
+        <th>Home Ground</th>
+        <th>Debut</th>
+        <th>Owner</th>
+    </tr>
+    <tr>
+        <td>Chennai Super Kings</td>
+        <td>Chennai,Tamilnadu</td>
+        <td>M.A.Chdambaram Stadium</td>
+        <td>2008</td>
+        <td><ul><li>Jana</li></ul></td>
+    </tr>
+    <tr>
+        <td>Delhi Capitals</td>
+        <td>New Delhi,Delhi</td>
+        <td>Aru Stadium</td>
+        <td></td>
+        <td><ul>
+            <li>Eswar<li>
+                <li>Bharani</li>
+        
+        </ul></td>
+        </tr>
+        <tr>
+            <td>Gujarat Titans</td>
+            <td>Ahemadabad,Gujarat</td>
+            <td>Modi Stadium</td>
+            <td>2022</td>
+             <td><ul><li>Elanjothi</li></ul></td>
+    
+        </tr>
+        <tr>
+            <td>Kolkata Night Riders </td>
+            <td>Kolkata,WestBengal</td>
+            <td> Eden Gardens</td>
+            <td>2012</td>
+            <td><ul>
+                <li>Aandh</li>
+                <li>Jayakumar</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td>Lucknow Super Gaints</td>
+            <td>Luknow,Uttar</td>
+            <td>SRIRAM Stadium</td>
+            <td>2023</td>
+            <td><ul><li>Akash</li></ul></td>
+        </tr>
+        
+    </tr>
+    </table>
+    <br>
+<br>
+<form action="new.html"method"get">
+    <div>  
+    <label for="UserName">UserName</label>
+<input type="text" name="UserName" id="UserName">
+</div>
+<div>
+    <label for="PassWord">Password</label>
+    <input type="password" name="PassWord" id="PassWord">
+
+</div>
+<div>
+    <label for="Email">Email</label>
+    <input type="text" name="Email" required
+</div>
+<div>
+    <label for="date">Date</label>
+    <input type="datetime-local" name="Date" id="Date"> 
+</div>
+<div>
+    <input type="checkbox" name="Dept" id="ECE">
+    <label for="Dept">ECE</label>
+</div>
+<div>
+    <input type="checkbox" name="Dept" id="EEE">
+    <label for="EEE">EEE</label>
+</div>
+<div>
+    <input type="radio" name="gender" id="Male">
+    <label for="Male">Male</label>
+</div>
+<div>
+    <input type="radio" name="gender" id="Female">
+    <label for="Female">Female</label>
+</div>
+<button type="submit">submit</button>
+</form>
+    
+</body>
+</html>
