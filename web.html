@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamaha</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff;
+            color: antiquewhite;
+        }
+        header{
+            background-color: #0f0f0f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            background-image: url(Yamaha.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+        }
+        header h1{
+            font-size: 3rem;
+            background: rgb(red,green,blue);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        nav{
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+        }
+        nav a{
+            color: #fff;
+            text-decoration: solid;
+            font-weight: bold;
+            transition: color 0.5s;
+        }
+        nav a{
+            color: #efff;
+            text-decoration: solid;
+            font-weight: bold;
+            transition: color 0.5s;
+        }
+        nov a:hover{
+            color: #00bfff;
+        }
+        section{
+            padding: 60px;
+        }
+        .specs{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: #f4f4f4;
+        }
+        .specs-1{
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 8px rgba(0,0,0,0.7);
+            margin: 15px;
+            padding: 20px;
+            width: 200px;
+        }
+        .gallery{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery.img{
+            width: 200px;
+            height: auto;
+            border: 10px;
+        }
+        .gallery.img:hover{
+            transform: scale(1.2);
+        }
+        .video{
+            display: flex;
+            justify-content: center;
+        }
+        iframe{
+            width: 75%;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#bikes">Bikes</a>
+        <a href="#specs">Specifications</a>
+        <a href="#about">About</a>
+        <a href="#video">Video</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+    <header>
+        <h1> Welcome to Yamaha ShowRoom</h1>
+    </header>
+    <section id="specs" class="specs">
+    <div class="specs-1">
+        <h3>Yamaha 500R</h3>
+        <p>Engine: 120CC</p>
+        <p>HorsePower: 18.1bhp</p>
+        <p>Top Speed: 130 km/hr</p>
+    </div>
+    <div class="specs-1">
+        <h3>TVS 500R</h3>
+        <p>Engine: 60CC</p>
+        <p>HorsePower: 11.1bhp</p>
+        <p>Top Speed: 50 km/hr</p>
+
+    </div>
+    <div  class="specs-1">
+    <h3>R15V3 500R</h3>
+        <p>Engine: 155CC</p>
+        <p>HorsePower: 18.6bhp</p>
+        <p>Top Speed: 136 km/hr</p>
+        </div>
+    </section>
+    <section id="Bikes" class="gallery">
+        <img src="mt-15.avif" alt="bike 1">
+        <img src="FZ.jpeg" alt="bike 2">
+        <img src="R15.avif" alt="bike 3" width="400px">
+        <img src="R15v4.avif" alt="bike 4">
+        <img src="rc.jpeg" alt="bike 5">
+    </section>
+    <section id="video" class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M--dL82i_NU?si=r1Fbav24-qvPj6bY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
